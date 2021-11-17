@@ -37,7 +37,7 @@ document.querySelector(".btn-roll").addEventListener("click", function (){
         if(!isGameOver){
             scores[activePlayer] = scores[activePlayer] + roundScore;
             //Уг тоглогч хожсон эсэхийг шалгах
-            if(scores[activePlayer] >= 15){
+            if(scores[activePlayer] >= 100){
     
                 isGameOver = true;
                 //winner гэсэн текстийг Player гэсэн текстийн оронд гаргана
